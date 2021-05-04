@@ -1,0 +1,27 @@
+.container{
+    width:100px;
+    height:100px;
+    background-color:red;
+    position:absolute;
+
+}
+.containerwithanimation{
+    width:100px;
+    height:100px;
+    background-color: red;
+    animation-name:sample;
+    animation-duration:4s;
+    position:absolute;
+
+}
+@keyframes sample
+{
+    0% {background-color:green;}
+    20% {
+        background-color:yellow ;
+
+    }
+    50% {background-color:purple;} 
+    100% {background-color: rebeccapurple;}
+
+}
