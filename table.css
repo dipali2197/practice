@@ -1,0 +1,15 @@
+table{
+border:2px solid pink;
+text-align: center;
+font-size: 20px;
+background-color:blueviolet;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+
+th{border:5px solid purple;
+background-color: green;
+}
+td{border:5px solid black}
+
+.space{border-collapse:separate;
+    border-spacing:45px;}
